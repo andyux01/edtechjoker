@@ -12,8 +12,8 @@ Issue: I have an image on the page
 - Take 2 minutes and type up the following answers into Teams as to your guess:
 - What’s the first step?
 - How do I make the button?
-- We only have 1 image, how do we get another there?
-  - https://cdn.pixabay.com/photo/2015/11/03/08/56/question-mark-1019820_1280.jpg
+- Kita cuma punya 1 gambar, bagaimana caranya kita bisa mendapatkan gambar lain di sana?
+- https://cdn.pixabay.com/photo/2015/11/03/08/56/question-mark-1019820_1280.jpg
 
 ## Remediation
 - Swap codepens / audit the codepen of your pod. Look for the following and anything else you don’t understand
