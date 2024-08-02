@@ -1,106 +1,107 @@
-# Week 4 - The one with real development
+# Minggu ke 4 - Yang memiliki perkembangan nyata
 This week we'll start looking at how our code fits (or doesn't) into the modern JS ecosystem. What we've made so far is old school, vanilla, simple. Now we'll start looking into how moderen JS is shipped and worked with as well as provide review and revision to the work that's been done.
 
-## Tues
-## POLICY NOTE
-- TAs are giving feedback on correct and incorrectness
-- If you lose points it is typically for lacking things asked for / meeting all requirements
-- Incentivized office hours: office hours on Mondays and if a student submits on time and comes to office hours on Monday because they feel their assignment is lacking and resubmits after meeting with one of us, we won't take any late points off.
+## Selasa
+## CATATAN KEBIJAKAN
+- TA memberikan umpan balik tentang benar dan salahnya
+- Jika Anda kehilangan poin, biasanya karena kekurangan hal yang diminta / memenuhi semua persyaratan
+- Jam kantor yang diberi insentif: jam kantor pada hari Senin dan jika seorang siswa menyerahkan tugasnya tepat waktu dan datang ke jam kantor pada hari Senin karena mereka merasa tugasnya kurang dan menyerahkannya lagi setelah bertemu dengan salah satu dari kami, kami tidak akan mengurangi poin keterlambatan.
 
-## Code crit from HW3 30 min
+## Kode kritik dari HW3 30 menit
 
-- Mood check; go to Teams and the Genereal channel. How did you feel about Week 3 and where do you feel like you most fit in w/ these emojis?
+- Periksa suasana hati; buka Teams dan saluran Umum. Bagaimana perasaan Anda tentang Minggu ke-3 dan di bagian mana Anda merasa paling cocok dengan emoji ini?
 - https://teams.microsoft.com/l/message/19:OEYEyfw79yA_XRt49QwsN2BgCWwp68qijDL6mjJiAyI1@thread.tacv2/1706628650360?tenantId=7cf48d45-3ddb-4389-a9c1-c115526eb52e&groupId=15d18d53-9c62-4007-bc3f-89fcdb907446&parentMessageId=1706628650360&teamName=IST%20256%20SP24&channelName=General&createdTime=1706628650360&allowXTenantAccess=false
 
-- looking through some examples that were submitted for critique:
-- https://codepen.io/Alan-Manuel-the-sasster/pen/rNRwKwW
-- https://codepen.io/emirahanna/pen/rNRpygq
-- https://codepen.io/RileySpitznas/pen/NWJgbKm
-- https://codepen.io/Kermitopalis/pen/qBvpRjX
-- https://codepen.io/ssambender/pen/eYXRKPW
+- melihat beberapa contoh yang diajukan untuk dikritik:
+  - https://codepen.io/Alan-Manuel-the-sasster/pen/rNRwKwW
+  - https://codepen.io/emirahanna/pen/rNRpygq
+  - https://codepen.io/RileySpitznas/pen/NWJgbKm
+  - https://codepen.io/Kermitopalis/pen/qBvpRjX
+  - https://codepen.io/ssambender/pen/eYXRKPW
 
-## Remediations and enhancements to look for
-- Here's some general things to apply during activity one
-1. make sure that things like `class="whatever"` is NOT `class = "whatever"` spaces in attributes are not allowed
-2. if your testing for a style "state" like for example `if (thing.style.display == "block") { } ` change this to test if there's a class OR attribute. If the class exists `if (thing.classList.contains('namedclass')) {` then toggle the class on and off
-3. ensure you comment your functions to understand what they do. Generally I comment my own comment which each "novel" block of code; as in thing that I had to think about / figure out or that might be odd looking from my typical conventions (as you are early on, this should be very often as a result)
-4. ENSURE ALL TAGS THAT OPEN, CLOSE WHERE YOU EXPECT THEM TO
-5. remove reliance on `id="whatever"` and then `querySelector("#whatever")` but ESPECIALLY `document.getElementById('whatever')` . Refactor these to be `.whatever` and `class="whatever"` and `querySelector('.whatever')` or suffer the wrath of component architecture (and a11y, and ridicule) moving forward!!
-6. When using `@media` queries, verify you are using to use the same selector as you are doing in the rest of the document
+## Perbaikan dan peningkatan yang perlu diperhatikan
+- Berikut ini beberapa hal umum yang dapat diterapkan selama kegiatan pertama
+1. pastikan hal seperti `class="whatever"` is NOT `class = "whatever"` sspasi pada atribut tidak diperbolehkan
+2. jika Anda menguji untuk "status" gaya seperti misalnya `if (thing.style.display == "block") { } ` ubah ini untuk menguji apakah ada kelas ATAU atribut. Jika kelas tersebut ada `if (thing.classList.contains('namedclass')) {` maka aktifkan dan nonaktifkan kelas tersebut.
+3. Pastikan Anda mengomentari fungsi Anda untuk memahami apa fungsinya. Umumnya saya mengomentari komentar saya sendiri yang terdapat pada setiap blok kode "baru"; seperti hal yang harus saya pikirkan/pahami atau yang mungkin tampak aneh dari konvensi umum saya (karena Anda masih di awal, ini seharusnya sering terjadi sebagai hasilnya)
+4. PASTIKAN SEMUA TAG YANG TERBUKA, TERTUTUP DI TEMPAT YANG ANDA HARAPKAN
+5. hilangkan ketergantungan pada `id="whatever"` dan kemudian `querySelector("#whatever")` tetapi TERUTAMA `document.getElementById('whatever')` . Refaktor ini menjadi `.whatever` and `class="whatever"` and `querySelector('.whatever')` atau menanggung amarah arsitektur komponen (dan a11y, dan ejekan) yang terus berlanjut!!
+6. Saat menggunakan `@media` queries, verifikasi bahwa Anda menggunakan pemilih yang sama seperti yang Anda gunakan di bagian dokumen lainnya
 
-## Slide deck for today
+## Slide deck untuk hari ini
+
 - JS Ecosystems / landscape: https://docs.google.com/presentation/d/1XC6OuYVe3fOdGmpZ_Q9aGXOPJKjj5VbfR3vMvCUJBdk/edit?usp=sharing
 
-### Let's get our bearrings and peak behind how something is built
+### Mari kita pahami dan intip bagaimana sesuatu dibangun
 - https://hax.psu.edu/ - Open it up and let's look around a modern repo structure
-- https://github.com/elmsln/hax-psu - Activity; do all the following, following along while I do it. If you are stuck, ask the person next to you / around you. If they don't know, ask for a LA / me.
+- https://github.com/elmsln/hax-psu
+  - Aktivitas; lakukan semua hal berikut, ikuti petunjuk saya saat mengerjakannya. Jika Anda mengalami kendala, tanyakan kepada orang di sebelah Anda/di sekitar Anda. Jika mereka tidak tahu, tanyakan kepada asisten/saya.
   - Fork this code on the github website
   - Use github desktop / commandline to pull a copy of the code down locally
-  - I tend to store ALL development work on my file system like
-  -  `~/Documents/git/{USERNAME}/{REPONAME}` - don't care what structure you use but make it logical / some place you know where to access it
-  - Open VS Code; File menu -> Open Folder.. and select the repo you pulled down
-  - Let's get some plugins: _Click Extensions_ (building blocks on the left menu) then search for `lit-html` and `lit-plugin` and `HTML CSS Support`
-  - Open a terminal (VS Code -> Terminal menu -> New terminal)
-    - personally I usually have terminal open outside of VS Code but it's typically a preference thing as opposed to required. Some windows environments can be goofy and require this hence mentioning here
-  - type `pwd` this should list where you are currently in the file system
-  - type `node -v` to verify that it has access to node (it should if you installed it previously from week 1)
-  - type `ls -las` this should list everything in the folder (`dir` is a simplified view of this info)
-  - type `npm install` as long as you see a `package.json` in the previous step - **This is how you interface with ALL MODERN JAVASCRIPT CODE REPOS**
-  - type `npm run` which will list the commands you can run. _Almost every project_ responds to `npm start` or `npm run start`
-  - This should open up a browser window. Set your display up so these are side by side
-- Let's start digging through the code
-- I'll step through the code and what I've been building recently, applying concepts from class but at higher scales
-- There's a bug on mobile, let's setup the optimal environment to diagnose and resolve it: https://github.com/elmsln/issues/issues/1903
-- if you nail the little stuff, the syntax, the small structures, minimizing CSS and HTML and JS written to complete tasks, then thinking in bigger and bigger structures is more natural. It's a big pattern.
-
-### Additional help
-If you need additional help after watching that, here's some next steps
-- Run through JS fundamentals here https://www.w3schools.com/js/default.asp
+  - Saya cenderung menyimpan SEMUA pekerjaan pengembangan di sistem file saya seperti
+    -  `~/Documents/git/{USERNAME}/{REPONAME}` - tidak peduli struktur apa yang Anda gunakan, tetapi buatlah logis / suatu tempat yang Anda tahu di mana mengaksesnya
+    - Buka VS Code; Menu File -> Buka Folder.. dan pilih repo yang Anda tarik ke bawah
+    - Mari kita dapatkan beberapa plugin: Klik Ekstensi (blok penyusun pada menu sebelah kiri) lalu cari `lit-html` and `lit-plugin` and `HTML CSS Support`
+    - Open a terminal (VS Code -> Terminal menu -> New terminal)
+      - Secara pribadi saya biasanya membuka terminal di luar VS Code, tetapi biasanya ini lebih merupakan preferensi daripada keharusan. Beberapa lingkungan Windows bisa jadi aneh dan mengharuskan ini, oleh karena itu saya sebutkan di sini
+  - ketik `pwd` ini akan mencantumkan di mana Anda saat ini berada di sistem file
+  - ketik `node -v` untuk memverifikasi bahwa ia memiliki akses ke node (seharusnya demikian jika Anda menginstalnya sebelumnya dari minggu ke-1)
+  - ketik `ls -las` ini akan mencantumkan semua yang ada di folder ( dirini adalah tampilan sederhana dari info ini)
+  - type `npm install` selama Anda melihat package.jsondi langkah sebelumnya - **Ini adalah cara Anda berinteraksi dengan SEMUA REPO KODE JAVASCRIPT MODERN**
+  - type `npm run` yang akan mencantumkan perintah yang dapat Anda jalankan. _Hampir setiap proyek_ merespons `npm start` or `npm run start`
+  - Ini akan membuka jendela browser. Atur tampilan Anda sehingga keduanya berdampingan
+- Mari kita mulai menggali kodenya
+- Saya akan menelusuri kode dan apa yang telah saya bangun baru-baru ini, menerapkan konsep dari kelas tetapi pada skala yang lebih tinggi
+- Ada bug di ponsel, mari kita atur lingkungan yang optimal untuk mendiagnosis dan mengatasinya: https://github.com/elmsln/issues/issues/1903
+- Jika Anda menguasai hal-hal kecil, sintaksis, struktur kecil, meminimalkan CSS, HTML, dan JS yang ditulis untuk menyelesaikan tugas, maka berpikir dalam struktur yang lebih besar dan lebih besar akan lebih alami. Ini adalah pola yang besar.
+- 
+### Bantuan tambahan
+Jika Anda memerlukan bantuan tambahan setelah menontonnya, berikut beberapa langkah selanjutnya
+- Pelajari dasar-dasar JS di sini https://www.w3schools.com/js/default.asp
 - CSS fundamentals here https://www.w3schools.com/css/default.asp
-- HTML fundamentals here https://www.w3schools.com/html/default.asp
-- Go to TA's office hours, there's a ton of them, that's what they are there for!
-- DM me or the TA with **specific questions** you have have how to do **specific things** and we are happy to help
+- Dasar-dasar HTML di sini  https://www.w3schools.com/html/default.asp
+- Datanglah ke kantor TA pada jam kerja, banyak sekali jam kerjanya, itulah tugas mereka!
+- DM saya atau TA dengan pertanyaan spesifik yang Anda miliki tentang cara melakukan hal-hal tertentu dan kami dengan senang hati membantu
 
 
-# Thursday (we'll see how Tues goes and adjust from there)
-Now that we have some workflow and process down, let's start looking at a web component and building from juuust above nothing
-Quick deck: What is web components? https://docs.google.com/presentation/d/1cvM-4v745oQWcpX4M0ytFLQd_eIyaOJgUEgs4V6UFk0/edit?usp=sharing
-## Code by numbers
-- Take this boilerplate: https://github.com/btopro/polaris-chip make a template for yourself
-- get this code cloned to your computer
-- follow along in class
+# Kamis (kita lihat saja bagaimana Selasa berjalan dan menyesuaikannya dari sana)
+Sekarang setelah kita memiliki beberapa alur kerja dan proses, mari kita mulai melihat komponen web dan membangunnya dari nol. Ringkasan: Apa itu komponen web? [https://docs.google.com/presentation/d/1cvM-4v745oQWcpX4M0ytFLQd_eIyaOJgUEgs4V6UFk0/edit?usp=sharing](https://docs.google.com/presentation/d/18XW95fe_-mvOibTUvcCXh8OlH6xELCewAKlt4SJNc7g/edit?usp=sharing)
+## Kode dengan angka
+- Ambil boilerplate ini: https://github.com/btopro/polaris-chipbuat templat untuk Anda sendiri
+- dapatkan kode ini dikloning ke komputer Anda
+- ikuti di kelas
 
-### Activity 10 min discussion
-- What properties could we add to make this support links?
-- What data type is this?
-- What are the steps required to do this? What needs accounted for / changed in code.
-- If we wanted to do an 'active' state that is for 'hover', focus and to draw attention by default, how could we do that?
-- Post in Teams what properties you came up with?
+### Aktivitas Diskusi 10 menit
+- Properti apa yang dapat kita tambahkan untuk mendukung tautan ini?
+- Tipe data apa ini?
+- Apa saja langkah yang diperlukan untuk melakukan ini? Apa saja yang perlu diperhitungkan/diubah dalam kode?
+- Kalau kita ingin membuat status 'aktif' yang dimaksudkan untuk 'melayang', fokus dan menarik perhatian secara default, bagaimana kita melakukannya?
+- Posting di Discord properti apa saja yang Anda hasilkan?
 
 ### Activity 10 min
-- Pod activity. Look at your cards in your pod. What properties could you add to make your card flexible?
-- Are there any 'active' or visual 'state' driven capabilities to your card?
-- Are there any areas that could be HTML in nature?
+- Aktivitas Pod. Lihatlah kartu-kartu Anda di Pod. Properti apa yang dapat Anda tambahkan untuk membuat kartu Anda fleksibel?
+- Apakah kartu Anda memiliki kemampuan 'aktif' atau 'status' visual?
+- Apakah ada area yang sifatnya dapat berupa HTML?
 
-## Homework
+## Pekerjaan rumah
 
 Now it's your turn:
 
-- Apply your CSS / HTML of a card to the my-card element
-- Ignore the card modifying JS for now; we're just trying to get our card visually there
-- Try to add your properties into the element so that you can change the variables to make instances of your card
-  - You should have at least 2-4 properties that I can think of at a glance
-- Create 5 implementations of this in the demo / index.html area (meaning 5 different implementations of `<my-card>` using attributes)
-- Run through the lit tutorial - https://lit.dev/tutorials/intro-to-lit/ to help MAKE SURE IT IS USING JS AND NOT TS
+- Terapkan CSS / HTML kartu Anda ke elemen my-card
+- Abaikan JS yang mengubah kartu untuk saat ini; kami hanya mencoba untuk menampilkan kartu kami secara visual di sana
+- Cobalah untuk menambahkan properti Anda ke dalam elemen sehingga Anda dapat mengubah variabel untuk membuat contoh kartu Anda
+- Anda harus memiliki setidaknya 2-4 properti yang dapat saya pikirkan sekilas
+- Buat 5 implementasi ini di area demo / index.html (artinya 5 implementasi berbeda dalam `<my-card>` penggunaan atribut)
+- Jalankan tutorial lit - https://lit.dev/tutorials/intro-to-lit/ untuk membantu MEMASTIKANNYA MENGGUNAKAN JS DAN BUKAN TS
 
 ### Bonus 1pt
-Skipping ahead a week or so, try and get your JS wired up so that you can modify things on the card via your buttons. hint: buttons and js are in the demo. You'll need to rescope your calls and some other aspects to get the data to change, added, calculated how many there are, etc.
+Melompat ke depan seminggu atau lebih, cobalah untuk menghubungkan JS Anda sehingga Anda dapat mengubah hal-hal pada kartu melalui tombol Anda. Petunjuk: tombol dan js ada dalam demo. Anda perlu mengubah cakupan panggilan dan beberapa aspek lainnya untuk mengubah data, menambahkan, menghitung jumlahnya, dll.
 
-## Submission
-- HAX.psu post that links to your github repo that you made
-- When doing the tutorial, what did you get stuck on?
-  - In reading through the deck / tutorials / googling, what's not making sense?
-  - Same, but what DOES make sense? Is this a superior approach to coding in the 'global scope' ala code pen, or does this scoping make it more complicated?
-    - If more compplicated, what makes it harder?
-    - If superior approach, why did you feel this was easier than the code pen based global way?
-- Ideally it is published on vercel; if we get to that in class / your account works on it, cool; if not, not end of world
+## Penyerahan
+- Posting HAX.psu yang tertaut ke repo github yang Anda buat
+- Saat mengerjakan tutorial, kendala apa yang Anda hadapi?
+  - Saat membaca dek / tutorial / googling, apa yang tidak masuk akal?
+  - Sama, tetapi apa yang MEMANG masuk akal? Apakah ini pendekatan yang lebih baik untuk pengkodean dalam 'lingkup global' ala **codepen**, atau apakah cakupan ini membuatnya lebih rumit?
+    - Jika lebih rumit, apa yang membuatnya lebih sulit?
+    - Jika pendekatannya unggul, mengapa Anda merasa ini lebih mudah daripada cara global berbasis **codepen**?
+- Idealnya dipublikasikan di vercel; kalau kita sampai di kelas/akun kamu berfungsi di sana, keren; kalau tidak, tidak apa-apa
