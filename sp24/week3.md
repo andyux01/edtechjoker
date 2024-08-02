@@ -2,10 +2,9 @@
 
 ## Tuesday
 - Slides: https://docs.google.com/presentation/d/1ZlNgZiPT2dHqUsdpQh2CdbbGvYmEeG8Br5SDIp371lY/edit?usp=sharing
-- We'll dig into the code written the previous week and see different ways of solving the same problem
-- You'll work with your pod to implement specific changes brought up in class
+- Kita akan mempelajari kode yang ditulis minggu lalu dan melihat berbagai cara untuk menyelesaikan masalah yang sama
+- Anda akan bekerja dengan pod Anda untuk menerapkan perubahan spesifik yang dibahas di kelas
 - FlexBox really easy to understand - https://twitter.com/snowinglater/status/1615787738468610050
-
 - Where we got started on end of day Tues - https://codepen.io/btopro/pen/OJqjoLb 
 Issue: I have an image on the page
 - I need to add a button that adds a new image next to it when I hit the button
@@ -37,33 +36,32 @@ Issue: I have an image on the page
 
 ## Wed - start into the homework as far as watching videos and responding to things on hax.psu
 
-## Thursday
+## Kamis
 
 ### Code by Numbers
-The way these activities will work:
-- I will give a series of steps that are required
-- I will start doing the activity live in class with you following along
-- I'll ask questions, sometimes playing dumb, sometimes legitimate as far as how we want something to work
-- The faster we get through these tasks, the more of them you already have done. Hence the more responses I get to questions, the more likely we are to finish more of the activity
-- I will stop as I progress through code by numbers and stop to give you a chance to chew on it
-- We will do the things in question to a fork, clone, example, etc. **that mirrors what you are to do on your own project code**
-- **For example, if in class we start with a card repo and wire up a button, after the live activity you will then wire up that button in YOUR card repo**
-- The next class I'll then use examples people produced as the basis for what we'll review together
-- This feedback loop will continue repeating, usually each loop finishing it's cycle with additional tasks for you to do out of class + blog about a specific topic
+Cara kerja kegiatan ini:
+- Saya akan memberikan serangkaian langkah yang diperlukan
+- Saya akan mulai melakukan aktivitas ini secara langsung di kelas dengan Anda mengikuti
+- Saya akan mengajukan pertanyaan, terkadang berpura-pura bodoh, terkadang sah-sah saja sejauh menyangkut bagaimana kita menginginkan sesuatu bekerja
+- Semakin cepat kita menyelesaikan tugas-tugas ini, semakin banyak tugas yang sudah kamu selesaikan. Oleh karena itu, semakin banyak tanggapan yang saya dapatkan terhadap pertanyaan, semakin besar kemungkinan kita akan menyelesaikan lebih banyak aktivitas.
+- Saya akan berhenti saat saya melanjutkan melalui kode dengan angka dan berhenti untuk memberi Anda kesempatan untuk mengunyahnya
+- Kami akan melakukan hal-hal yang dimaksud pada fork, clone, contoh, dll. **yang mencerminkan apa yang harus Anda lakukan pada kode proyek Anda sendiri**
+- **Misalnya, jika di kelas kita mulai dengan repo kartu dan memasang tombol, setelah aktivitas langsung Anda akan memasang tombol itu di repo kartu ANDA**
+- Di kelas berikutnya saya akan menggunakan contoh-contoh yang dihasilkan orang lain sebagai dasar untuk apa yang akan kita ulas bersama
+- Siklus umpan balik ini akan terus berulang, biasanya setiap siklus mengakhiri siklusnya dengan tugas tambahan yang harus Anda lakukan di luar kelas + blog tentang topik tertentu
 
-#### Code By The Numbers - Activity Together
-- We're going to start from this pen about amazing professors: https://codepen.io/btopro/pen/PoLJXVj
-- Recording from class that day: https://www.youtube.com/watch?v=LGZHodz7dLo
-- Fork the pen and follow along / answering questions in the activity along the way
-- Let's add a button that when we press it, it generates a new copy of our card
-- Let's add a button that when we press it, the title of the card changes
-- Let's add a button that when we press it, the image changes to a different image
-- Let's add a button that when we press it, the background-color of the card changes **via a css Class**
-- Let's add a button that when we press it, the LAST CARD gets removed
-Additional logic to add:
-- Let's make sure that when we go to remove cards, that we don't delete our only one
-- Let's make sure that when we go to add cards, we don't add more than 10
-- Let's make sure when we change the background-color that we can toggle it off and on **for all of the cards on the screen**
+#### Kode Berdasarkan Angka - Aktivitas Bersama
+- Kita akan mulai dari pena ini tentang profesor yang luar biasa: https://codepen.io/btopro/pen/PoLJXVj
+- Rekaman dari kelas hari itu: https://www.youtube.com/watch?v=LGZHodz7dLo
+- Garpukan pena dan ikuti / jawab pertanyaan dalam aktivitas di sepanjang jalan
+- Mari tambahkan tombol yang ketika kita menekannya, akan menghasilkan salinan baru kartu kita
+- Mari tambahkan tombol yang ketika kita menekannya, judul kartu akan berubah
+- Mari kita tambahkan tombol yang ketika kita menekannya, gambar akan berubah menjadi gambar lain
+- Mari tambahkan tombol yang ketika kita menekannya, warna latar belakang kartu berubah **melalui Kelas css**
+- Mari tambahkan tombol yang jika kita menekannya, KARTU TERAKHIR akan terhapus. Logika tambahan untuk ditambahkan:
+- Mari kita pastikan bahwa ketika kita akan menghapus kartu, kita tidak menghapus satu-satunya kartu kita
+- Pastikan saat kita menambahkan kartu, kita tidak menambahkan lebih dari 10
+- Mari kita pastikan ketika kita mengubah warna latar belakang, kita dapat mengaktifkan dan menonaktifkannya **untuk semua kartu di layar**
 
 ## Homework
 - Some examples that can help you apply to your card
@@ -77,16 +75,16 @@ Additional logic to add:
 - https://www.youtube.com/watch?v=yORXfAb2Gvo -- a short primer on the general feedback loop of searching for a type of event on MDN and then testing it
 
 ## Answer these questions
-### Video 1:
-- What made the idea viable?
-- What is the original issue with the Lit code highlighter?
-- What’s a strategy you can engage in in order to refactor toward better code? What strategy / how many iterations did I go through to get “better code”? - What makes this code better?
+### Rekaman Video 1:
+- Apa yang membuat ide itu layak?
+- Apa masalah awal dengan penyorot kode Lit?
+- Strategi apa yang dapat Anda lakukan untuk melakukan refaktor menuju kode yang lebih baik? Strategi apa/berapa kali iterasi yang saya lalui untuk mendapatkan "kode yang lebih baik"? - Apa yang membuat kode ini lebih baik?
 ### Video 2:
-- What weird event did I implement to solve a UX problem?
-- What is the difference between document and window in javascript? What is globalThis?? Find these on Mozilla Developer Network page to explore what they are and what you can do with them.
-- Find 5 events that user input can generate via the MDN Web Docs. Link to examples
+- Peristiwa aneh apa yang saya terapkan untuk memecahkan masalah UX?
+- Apa perbedaan antara dokumen dan jendela dalam javascript? Apa itu globalThis? Temukan keduanya di halaman Mozilla Developer Network untuk mengetahui apa saja keduanya dan apa yang dapat Anda lakukan dengannya.
+- Temukan 5 peristiwa yang dapat dihasilkan melalui MDN Web Docs melalui input pengguna. Tautan ke contoh
 
-## Homework Submission
-- Create a HAX.PSU blog post that has answers to the above after watching the videos
-- Finish the "code by the numbers" work started in class together **but applied to your card you made previously** and provide a link in your blog post
-- drop link to your post into canvas HW3
+## Penyerahan Pekerjaan Rumah
+- Buat postingan blog HAX.PSU yang berisi jawaban untuk pertanyaan di atas setelah menonton videonya
+- Selesaikan pekerjaan "kode berdasarkan angka" yang dimulai di kelas bersama-sama **tetapi diterapkan pada kartu yang Anda buat sebelumnya** dan berikan tautan di posting blog Anda
+- jatuhkan tautan ke postingan Anda ke kanvas HW3
