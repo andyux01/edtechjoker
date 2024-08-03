@@ -18,90 +18,87 @@
 
 - Buat akun di https://github.com 
 - Buat akun pada layanan yang tercantum di sini: https://oer.hax.psu.edu/bto108/sites/ist256/requirements
-- Create a **PUBLIC** Gist on https://gist.github.com/ called **week-1.md** (so that you can write markdown and practice doing so)
-- Watch this video on terminal basics: https://www.youtube.com/watch?v=cwTswuFkMH4 
-- Read this [Kesalahan Umum](https://github.com/andyux01/edtechjoker/blob/master/common-issues.md) (and keep it in mind going forward as it'll save us time and time is valuable!):
-- Watch the following video / have it open in another tab: https://youtu.be/DWvRV9KuTjk 
-- Write responses using Markdown (Look it up if you don't know how to do it but bottom right corner in gist will have a `M^` button w/ details):
-  - If the question is a simple answer / response. Then make it a HEADING using markdown for the question `## `
-  - If the question has multiple responses (like 5 syntaxes) then make the question a HEADING level 2, but the responses using a bulleted list (look this up)
-  - If you end up adding a code sample, use the ` ``` ` three back ticks syntax in order to show the code in a block.
-- Questions to answer
-  - Was the backend or frontend responsible for the bug in the video?
-  - What languages do you see in this video? List ALL of them. If you're not sure what the language is, but you know there's an additional one, indicate that.
-  - What tools, strategies, and workflows used in the video do you think are common across all web development?
-  - What strategies used in the video help with debugging?
-  - What strategies have you used before that are shown here for debugging?
-  - What tools and approaches used in the video do you think help in quality control / quality assurance?
-  - What are 5 syntaxes / pieces of code shown you DO recognize (could be of any scale or size), time stamp (link) or screenshot it and list what they are them. (screen shots can be drag and dropped into the comment area below your gist)
-  - What are 5 syntaxes / pieces of code shown you DON'T recognize, time stamp (link) or screenshot it and list what they are them. (screen shots can be drag and dropped into the comment area below your gist)
-  - You just wrote responses to these questions in Markdown. What even is that? (insert meme here :p). What is Markdown and how is it similar, different, or related to HTML?
-  - What are 3 things you CAN NOT do in markdown that you CAN do in HTML?
+- Buat Gist **PUBLIC**  di https://gist.github.com/ called **minggu-1.md** (sehingga Anda dapat menulis markdown dan berlatih melakukannya)
+- Tonton video ini tentang dasar-dasar terminal: https://www.youtube.com/watch?v=cwTswuFkMH4 
+- Read this [Kesalahan Umum](https://github.com/andyux01/edtechjoker/blob/master/common-issues.md) ini (dan ingatlah ini untuk ke depannya karena ini akan menghemat waktu kita dan waktu itu berharga!):
+- Tonton video _live code_ berikut  / buka di tab lain: https://youtu.be/DWvRV9KuTjk 
+- Tulis tanggapan menggunakan Markdown (Cari tahu kalau Anda tidak tahu caranya, tetapi di pojok kanan bawah gist akan ada M^ tombol dengan detail):
+  - Jika pertanyaannya adalah jawaban/respon sederhana. Maka buatlah sebuah HEADING dengan menggunakan markdown untuk pertanyaannya `## `
+  - Jika pertanyaan memiliki beberapa respons (seperti 5 sintaksis), maka buatlah pertanyaan tersebut menjadi HEADING level 2, tetapi responsnya menggunakan daftar poin (lihat ini)
+  - Jika Anda akhirnya menambahkan contoh kode, gunakan ` ``` ` sintaksis tiga tanda centang mundur untuk menampilkan kode dalam satu blok.
+- **Pertanyaan untuk dijawab**
+  - Apakah bagian backend atau frontend yang bertanggung jawab atas bug dalam video tersebut?
+  - Bahasa apa saja yang Anda lihat dalam video ini? Sebutkan SEMUANYA. Jika Anda tidak yakin bahasa apa yang dimaksud, tetapi Anda tahu ada bahasa lain, sebutkan.
+  - Alat, strategi, dan alur kerja apa yang digunakan dalam video tersebut yang menurut Anda umum di semua pengembangan web?
+  - Strategi apa yang digunakan dalam video untuk membantu debugging?
+  - Strategi apa yang pernah Anda gunakan sebelumnya yang ditunjukkan di sini untuk debugging?
+  - Menurut Anda, alat dan pendekatan apa yang digunakan dalam video tersebut yang membantu dalam pengendalian mutu/jaminan mutu?
+  - Sebutkan 5 sintaksis / potongan kode yang ditampilkan yang ANDA KENALI (bisa dalam skala atau ukuran apa pun), cap waktu (tautan), atau ambil tangkapan layar dan cantumkan apa saja itu. (tangkapan layar dapat diseret dan dilepaskan ke area komentar di bawah intisari Anda)
+  - Sebutkan 5 sintaksis/potongan kode yang ditampilkan yang TIDAK Anda kenali, cap waktu (tautan) atau ambil tangkapan layar dan cantumkan apa saja itu. (tangkapan layar dapat diseret dan dilepaskan ke area komentar di bawah intisari Anda)
+  - Anda baru saja menulis tanggapan terhadap pertanyaan-pertanyaan ini dalam Markdown. Apa itu? (masukkan meme di sini :p). Apa itu Markdown dan apa persamaan, perbedaan, atau kaitannya dengan HTML?
+  - Sebutkan 3 hal yang TIDAK BISA Anda lakukan di Markdown namun BISA Anda lakukan di HTML?
 
-*Submit the link to your GIST using the Cantvas HW 1 Dropbox*
+*Kirimkan tautan ke GIST Anda menggunakan Canvas HW 1 Dropbox*
 
-# Week 2 - The one with Git.. AND SNOW
+# Minggu ke-2 - Yang bersama Git.. DAN SALJU
 
 # Week 2: Git / Github
 ## Tuesday
-- Git lecture
+- Pelajaran Git
 - Slides: https://docs.google.com/presentation/d/1bfNIILQxz8giCLSszmdvDnfNDXY9fpcgYgc-cDE1fFQ/edit?usp=sharing
-- Git activity in class
+- Aktivitas Git di kelas
 
-## Wed between class
-- Watch this video of me solving a problem and the full end to end pipeline with github and process: https://www.youtube.com/watch?v=oc7sNh2Zisg
-- **HW Part 1** listed below: do between class for discussion as well as jump starting the homework
+## Rabu di sela-sela kelas
+- Tonton video saya ini saat memecahkan suatu masalah dan alur lengkapnya dengan github dan prosesnya: https://www.youtube.com/watch?v=oc7sNh2Zisg
+- **PR Bagian 1** tercantum di bawah ini: lakukan di sela-sela kelas untuk diskusi dan juga untuk memulai pekerjaan rumah
 
-## Thursday
-- Let's start working on cards!
-- Slide deck for Thurs which I will run through very quickly (you can read on your own time or use as basis to googlee concepts) https://docs.google.com/presentation/d/1rbC4d-sXTyDUArLPXl-tBEQ8ZJldD9_QFfuFhgIW73g/edit?usp=sharing
+## Kamis
+- Ayo mulai mengerjakan kartu!
+- Slide deck untuk hari Kamis yang akan saya bahas dengan sangat cepat (Anda dapat membacanya di waktu luang atau menggunakannya sebagai dasar untuk mencari konsep di Google) https://docs.google.com/presentation/d/1rbC4d-sXTyDUArLPXl-tBEQ8ZJldD9_QFfuFhgIW73g/edit?usp=sharing
 
-## Homework
+## Pekerjaan rumah
 Two-part homework this week; we will have time in class Thurs to start and then Tues the focus will be critique via submissions generated by the class.
 
-### HW Part 1
-- Fork this pen on codepen https://codepen.io/btopro/pen/jOJVyXN
-- Try to make more than 1 meme by duplicating the HTML portion of the code
-- Modify the text / image used in the meme on the HTML portion
-- Try to modify the font-size using the CSS tab.
-- Make a new HAX.PSU.EDU BLOG POST where you try to answer the following questions
-  - Provide a Link to your fork of the codepen
-  - Look at the CSS / styles; What's special about `--meme-maker-font-size-medium`?
-  - Look at @media in styles() what does this do?
-  - In the CSS area, write a selector for changing the font color on both tags. If you can change this, how did you do it? If  you can't, why don't you think it is working?
+### PR Bagian 1
+- Fork kode kartu ini di codepen https://codepen.io/btopro/pen/jOJVyXN
+- Cobalah membuat lebih dari 1 meme dengan menduplikasi bagian HTML dari kode tersebut
+- Ubah teks / gambar yang digunakan dalam meme pada bagian HTML
+- Cobalah mengubah ukuran font menggunakan tab CSS.
+- Buat POSTINGAN BLOG HAX.PSU.EDU baru yang mencoba menjawab pertanyaan berikut
+  - Berikan Tautan ke fork codepen Anda
+  - Lihatlah CSS/gaya; Apa istimewanya `--meme-maker-font-size-medium`?
+  - Lihat  @media di styles() apa fungsinya?
+  - Di area CSS, tulis selector untuk mengubah warna font pada kedua tag. Jika Anda dapat mengubah ini, bagaimana Anda melakukannya? Jika tidak dapat, mengapa menurut Anda cara ini tidak berhasil?
 
-### Part 2:
-- here's what I made in class: https://codepen.io/btopro/pen/dyrWXBp
-- Working with your pod, come up with an agreed upon visual as to how you'd conceive the following problem:
-#### We need to make a card with a fancy button on it
-- I will model the button on the white board
-- I'll use codepen to create the button based on my model - https://codepen.io/btopro/pen/dyrWXBp
-- You are free to follow along and copy or just watch and ingest technique
+### Bagian 2:
+- inilah yang saya buat di kelas: https://codepen.io/btopro/pen/dyrWXBp
+- Saat bekerja dengan pod Anda, buatlah visualisasi yang disepakati bersama tentang bagaimana Anda akan memahami masalah berikut ini:
+### Kita perlu membuat kartu dengan tombol mewah di atasnya
+- Saya akan memodelkan tombol di papan tulis
+- Saya akan menggunakan codepen untuk membuat tombol berdasarkan model saya - https://codepen.io/btopro/pen/dyrWXBp
+- Anda bebas mengikuti dan menyalin atau hanya menonton dan menyerap tekniknya
+### Sekarang giliranmu, naik level
+- Bekerja dengan Pod Anda, buat model kartu bersama secara visual berdasarkan persyaratan di bawah ini
+- modelkan hal-hal berdasarkan tangkapan layar / salinan pena dan kertas yang Anda buat
+### Langkah-langkah yang diperlukan:
+- Buat codepen baru dari awal dan coba buat "kartu" menggunakan campuran tag semantik, div, dan tag lainnya untuk menata kartu:
+- Buat “kartu” sederhana menggunakan beberapa tag SECTION atau DIV, Heading untuk judul, Paragraph untuk deskripsi gambar, IMG untuk gambar, dan tombol pada kartu yang bertuliskan "Details" yang terhubung ke hax.psu.edu
+- Jadikan gambar berukuran tetap melalui tinggi / lebar dan pastikan kartu tidak lebih besar dari lebar 400px (tinggi aneh dalam CSS, abaikan tinggi)
+- Gunakan atribut Border, Margin, dan padding untuk memberi jarak pada kartu agar terlihat menarik (internet dapat membantu memengaruhi sesuatu untuk dimodelkan, coba buat 8px lalu 12, lalu 16 untuk menemukan yang Anda suka, rasio adalah kuncinya)
+- Tambahkan kueri media yang hanya menampilkan tombol detail saat layar lebih kecil dari 800 piksel (umumnya tablet kecil) tetapi lebih besar dari 500 piksel (ponsel)
+- Tambahkan kueri media yang mengubah skala kartu (dan gambar/item di dalamnya) saat ditampilkan pada layar yang lebih kecil dari 500 piksel (umumnya dianggap sebagai ponsel)
+- Buat postingan blog baru di ...
 
-#### Now it's your turn, kicked up a notch
-- Working with your Pod, created a shared model of a card visually based on the requirements below
-- model things after the screenshot / pen and paper copy you came up with
-
-#### Required steps:
-- Create a new codepen from scratch and try to create a "card" using a mix of semantic, div and other tags to lay the card out:
-- Create a simple “card” using a few SECTION or DIV tags, a Heading for the title, a Paragraph for description of the image an IMG for an image, and a button on the card that says "Details" which links to hax.psu.edu
-- Make the image a fixed size via height / width and ensure the card is no bigger than 400px wide (height is weird in CSS, ignore height)
-- Use the Border, Margin, and padding attributes in order to space the card to visually be appealing (the internet can help influence something to model, try making things 8px and then 12, then 16 to find what you like, ratios are key)
-- Add a media query that only shows the details button when the screen is smaller than 800px (generally a small tablet) but larger than 500px (phone)
-- Add a media query that scales the card (and image / items within) when on a screen smaller than 500px (generally considered phone)
-- Create a new blog post on hax.psu.edu
-
-#### Remediation
-I will not verify you completing these, but here are 2 low level tutorials from W3Schools for practicing HTML and CSS fundamentals
+### Remediasi
+Saya tidak akan memverifikasi Anda menyelesaikan ini, tetapi berikut adalah 2 tutorial tingkat rendah dari W3Schools untuk mempraktikkan dasar-dasar HTML dan CSS
 - https://www.w3schools.com/html/default.asp
 - https://www.w3schools.com/css/default.asp
 - https://oer.hax.psu.edu/bto108/sites/ist256/resources -- the resources section of the course site has links to free "books" which cover a lot of fundamentals as well
 
-## Homework Submission
-**Submit the link to your HAX.PSU BLOG POST in Canvas**
-The HAX.PSU BLOG POST should include the following:
-- A link to your code pen fork from Part 1 of the meme and part 2 of the "Card"
-- Answers to the questions asked about part 1.
-- If you found particular websites helpful from a tutorial perspective on any of these specific requirements, then include them so we can share with the class.
-- If you have questioned unanswered / things you couldn't figure out from the "Card" activity, what are they?
-- a picture of the mock up you were trying to model the card off of (YOU CAN UPLOAD VIA DRAG AND DROP OR BLOCKS TAB OR MERLIN MENU AT THE TOP OF THE UI)
+## Penyerahan Pekerjaan Rumah
+**Kirimkan tautan ke POSTINGAN BLOG HAX.PSU Anda di Canvas.** POSTINGAN BLOG HAX.PSU harus menyertakan hal berikut:
+- Tautan ke kode pena garpu Anda dari Bagian 1 meme dan bagian 2 dari "Kartu"
+- Jawaban atas pertanyaan yang diajukan pada bagian 1.
+- Jika Anda menemukan situs web tertentu bermanfaat dari sudut pandang tutorial pada salah satu persyaratan khusus ini, sertakanlah sehingga kami dapat membagikannya dengan kelas.
+- Jika Anda mempunyai pertanyaan yang belum terjawab/hal yang tidak dapat Anda pahami dari aktivitas "Kartu", apa sajakah itu?
+- gambar tiruan yang Anda coba modelkan pada kartu (ANDA DAPAT MENGUNGGAH MELALUI DRAG AND DROP ATAU TAB BLOK ATAU MENU MERLIN DI ATAS UI)
