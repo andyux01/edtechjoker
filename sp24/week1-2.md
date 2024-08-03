@@ -20,7 +20,7 @@
 - Buat akun pada layanan yang tercantum di sini: https://oer.hax.psu.edu/bto108/sites/ist256/requirements
 - Create a **PUBLIC** Gist on https://gist.github.com/ called **week-1.md** (so that you can write markdown and practice doing so)
 - Watch this video on terminal basics: https://www.youtube.com/watch?v=cwTswuFkMH4 
-- Read this [common issues document](common-issues.md) (and keep it in mind going forward as it'll save us time and time is valuable!):
+- Read this [Kesalahan Umum](https://github.com/andyux01/edtechjoker/blob/master/common-issues.md) (and keep it in mind going forward as it'll save us time and time is valuable!):
 - Watch the following video / have it open in another tab: https://youtu.be/DWvRV9KuTjk 
 - Write responses using Markdown (Look it up if you don't know how to do it but bottom right corner in gist will have a `M^` button w/ details):
   - If the question is a simple answer / response. Then make it a HEADING using markdown for the question `## `
