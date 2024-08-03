@@ -1,32 +1,34 @@
-# Week 5 - More with Web components
-As expected, results from homework were very mixed. It's not an easy subject, and some times we have to stretch a bit on something in order to see what we can retain. This week we start into thinking like an HTML spec author. This is deep thought work for sure and we are lucky to be building on abstractions, but let's start the process that they went through to think about the attribute and design considerations of the HTML primative tags (p, img, a, table, etc) and use that process to build our own card so that it is reusable like the original tags but more robust!
-## Tues
-- Let's review issues people had in doing that
-- Crit:
+# Minggu ke-5 - Lebih banyak dengan komponen Web
+Seperti yang diharapkan, hasil dari pekerjaan rumah sangat beragam. Ini bukan subjek yang mudah, dan terkadang kita harus sedikit mengembangkan sesuatu untuk melihat apa yang dapat kita ingat. Minggu ini kita mulai berpikir seperti penulis spesifikasi HTML. Ini adalah pekerjaan pemikiran yang mendalam dan kita beruntung dapat membangun di atas abstraksi, tetapi mari kita mulai proses yang mereka lalui untuk memikirkan atribut dan pertimbangan desain tag primitif HTML (p, img, a, table, dll.) dan menggunakan proses itu untuk membangun kartu kita sendiri sehingga dapat digunakan kembali seperti tag asli tetapi lebih tangguh!
+
+## Selasa
+- Mari kita tinjau masalah yang dialami orang saat melakukan hal itu
+- Kritisi:
   - https://github.com/ssambender/polaris-chip
   - https://github.com/emirahanna/polaris-chip
-  - https://github.com/infodigger33/polaris-chip - This one let's fork / clone and dig into together
+  - https://github.com/infodigger33/polaris-chip - Yang ini mari kita fork / klon dan gali bersama
 
-### Activity: Talk to people in your pod 20 min
-- Did anyone get their card working? If so, let that person drive so to speak as far as explaining how they got their card working
-- If anyone is completely lost and their card doesn't work, debug. what's broken about it? where are they stuck
-- I saw a lot of components, but not all were reusable. Come up with 5 issues (among your pod, 5 total, not the same over and over) that you see when reviewing each other's code.
-- What is NOT reusable by the following definition:
-> A random person searches the internet for a Card that has your details on it
-> Are they able to download it and write `<my-card title="Fresh Prince" fancy source="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRPgSRgEYJ3lY8Ky8wNqfoJqWe2U2VMe-RIKbO_0HSXGj5sHA-_"></my-card>` and obtain a card that looks 'fancy' with the title fresh prince written on it and a picture of a better time?
+### Aktivitas: Bicaralah dengan orang-orang di pod Anda 20 menit
+- Apakah ada yang berhasil membuat kartunya berfungsi? Jika ada, biarkan orang tersebut menjelaskan bagaimana cara mereka membuat kartunya berfungsi.
+- Jika ada yang benar-benar hilang dan kartunya tidak berfungsi, debug. Apa yang salah? Di mana mereka terjebak?
+- Saya melihat banyak komponen, tetapi tidak semuanya dapat digunakan kembali. Temukan 5 masalah (di antara pod Anda, total 5, tidak sama terus-menerus) yang Anda lihat saat meninjau kode satu sama lain.
+- Apa yang TIDAK dapat digunakan kembali menurut definisi berikut:
+> Seseorang secara acak menelusuri internet untuk sebuah Kartu yang berisi detail Anda. Apakah mereka dapat mengunduhnya dan menulis `<my-card title="Fresh Prince" fancy source="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRPgSRgEYJ3lY8Ky8wNqfoJqWe2U2VMe-RIKbO_0HSXGj5sHA-_"></my-card>` serta memperoleh kartu yang terlihat 'mewah' dengan judul pangeran segar tertulis di atasnya dan gambar saat-saat yang lebih baik?
 
-If someone would get your card and not be able to replace the title / image on it with their own, it's not reusable. Work with your pod to get everyone's cards reusable. Add this card to your demo to ensure that you have support for gigantic images!
+Jika seseorang mendapatkan kartu Anda dan tidak dapat mengganti judul/gambar di dalamnya dengan miliknya sendiri, kartu tersebut tidak dapat digunakan kembali. Bekerjasamalah dengan kelompok Anda agar kartu milik semua orang dapat digunakan kembali. Tambahkan kartu ini ke demo Anda untuk memastikan bahwa Anda memiliki dukungan untuk gambar berukuran besar!
 
-When you feel confident that everyone in your pod has a working card that is reusable, post the link to it on the teams channel.
+Bila Anda merasa yakin bahwa setiap orang dalam pod Anda mempunyai kartu yang berfungsi dan dapat digunakan kembali, posting tautannya di saluran tim.Jika seseorang mendapatkan kartu Anda dan tidak dapat mengganti judul/gambar di dalamnya dengan miliknya sendiri, kartu tersebut tidak dapat digunakan kembali. Bekerjasamalah dengan kelompok Anda agar kartu milik semua orang dapat digunakan kembali. Tambahkan kartu ini ke demo Anda untuk memastikan bahwa Anda memiliki dukungan untuk gambar berukuran besar!
 
-## Wed
-- If your card isn't working / your having issues, talk to the LAs / reach out for help
-- For Thursday, clean up your card and try to implement the rescoped JS based buttons to wire up functionality in the example we looked at in class.
-- This will become homework in addition to what we do Thurs.
+Bila Anda merasa yakin bahwa setiap orang dalam pod Anda mempunyai kartu yang berfungsi dan dapat digunakan kembali, posting tautannya di saluran tim.
 
-## Thursday
-- Live demo / follow along adding the things below
-- Class recording of the below: https://www.youtube.com/watch?v=hLDrFa45wJQ
+## Rabu
+- Jika kartu Anda tidak berfungsi/Anda mengalami masalah, bicaralah dengan LA/cari bantuan
+- Untuk hari Kamis, bersihkan kartu Anda dan coba terapkan tombol berbasis JS yang telah diubah cakupannya untuk menghubungkan fungsionalitas pada contoh yang kita lihat di kelas.
+- Ini akan menjadi pekerjaan rumah selain apa yang kita lakukan pada hari Kamis.
+
+## Kamis
+- Demo langsung / ikuti dengan menambahkan hal-hal di bawah ini
+- Rekaman kelas di bawah ini: https://www.youtube.com/watch?v=hLDrFa45wJQ
 
 ## Let's get fancy with CSS selectors
 - Adding a 'reflected' variable to our element. Reflected variables allow you to change the properties of your card and have the CSS change as a result
