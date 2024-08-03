@@ -67,7 +67,7 @@ Jika Anda memerlukan bantuan tambahan setelah menontonnya, berikut beberapa lang
 # Kamis (kita lihat saja bagaimana Selasa berjalan dan menyesuaikannya dari sana)
 Sekarang setelah kita memiliki beberapa alur kerja dan proses, mari kita mulai melihat komponen web dan membangunnya dari nol. Ringkasan: Apa itu komponen web? [https://docs.google.com/presentation/d/1cvM-4v745oQWcpX4M0ytFLQd_eIyaOJgUEgs4V6UFk0/edit?usp=sharing](https://docs.google.com/presentation/d/18XW95fe_-mvOibTUvcCXh8OlH6xELCewAKlt4SJNc7g/edit?usp=sharing)
 ## Kode dengan angka
-- Ambil boilerplate ini: https://github.com/btopro/polaris-chipbuat templat untuk Anda sendiri
+- Ambil template kartu ini: [https://github.com/btopro/polaris-chipbuat](https://github.com/btopro/polaris-chip) templat untuk Anda sendiri
 - dapatkan kode ini dikloning ke komputer Anda
 - ikuti di kelas
 
