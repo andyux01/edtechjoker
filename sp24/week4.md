@@ -3,15 +3,13 @@ This week we'll start looking at how our code fits (or doesn't) into the modern 
 
 ## Selasa
 ## CATATAN KEBIJAKAN
-- TA memberikan umpan balik tentang benar dan salahnya
+- Asisten memberikan umpan balik tentang benar dan salahnya
 - Jika Anda kehilangan poin, biasanya karena kekurangan hal yang diminta / memenuhi semua persyaratan
 - Jam kantor yang diberi insentif: jam kantor pada hari Senin dan jika seorang siswa menyerahkan tugasnya tepat waktu dan datang ke jam kantor pada hari Senin karena mereka merasa tugasnya kurang dan menyerahkannya lagi setelah bertemu dengan salah satu dari kami, kami tidak akan mengurangi poin keterlambatan.
 
-## Kode kritik dari HW3 30 menit
-
+## Kode kritik dari PR 3 - 30 menit
 - Periksa suasana hati; buka Teams dan saluran Umum. Bagaimana perasaan Anda tentang Minggu ke-3 dan di bagian mana Anda merasa paling cocok dengan emoji ini?
-- https://teams.microsoft.com/l/message/19:OEYEyfw79yA_XRt49QwsN2BgCWwp68qijDL6mjJiAyI1@thread.tacv2/1706628650360?tenantId=7cf48d45-3ddb-4389-a9c1-c115526eb52e&groupId=15d18d53-9c62-4007-bc3f-89fcdb907446&parentMessageId=1706628650360&teamName=IST%20256%20SP24&channelName=General&createdTime=1706628650360&allowXTenantAccess=false
-
+- Wa Group
 - melihat beberapa contoh yang diajukan untuk dikritik:
   - https://codepen.io/Alan-Manuel-the-sasster/pen/rNRwKwW
   - https://codepen.io/emirahanna/pen/rNRpygq
@@ -30,21 +28,21 @@ This week we'll start looking at how our code fits (or doesn't) into the modern 
 
 ## Slide deck untuk hari ini
 
-- JS Ecosystems / landscape: https://docs.google.com/presentation/d/1XC6OuYVe3fOdGmpZ_Q9aGXOPJKjj5VbfR3vMvCUJBdk/edit?usp=sharing
+- Ekosistem/lanskap JS:: https://docs.google.com/presentation/d/1XC6OuYVe3fOdGmpZ_Q9aGXOPJKjj5VbfR3vMvCUJBdk/edit?usp=sharing
 
 ### Mari kita pahami dan intip bagaimana sesuatu dibangun
 - https://hax.psu.edu/ - Open it up and let's look around a modern repo structure
 - https://github.com/elmsln/hax-psu
   - Aktivitas; lakukan semua hal berikut, ikuti petunjuk saya saat mengerjakannya. Jika Anda mengalami kendala, tanyakan kepada orang di sebelah Anda/di sekitar Anda. Jika mereka tidak tahu, tanyakan kepada asisten/saya.
-  - Fork this code on the github website
-  - Use github desktop / commandline to pull a copy of the code down locally
+  - Fork kode ini di website github
+  - Gunakan github desktop / commandline untuk menarik salinan kode secara lokal
   - Saya cenderung menyimpan SEMUA pekerjaan pengembangan di sistem file saya seperti
     -  `~/Documents/git/{USERNAME}/{REPONAME}` - tidak peduli struktur apa yang Anda gunakan, tetapi buatlah logis / suatu tempat yang Anda tahu di mana mengaksesnya
     - Buka VS Code; Menu File -> Buka Folder.. dan pilih repo yang Anda tarik ke bawah
     - Mari kita dapatkan beberapa plugin: Klik Ekstensi (blok penyusun pada menu sebelah kiri) lalu cari `lit-html` and `lit-plugin` and `HTML CSS Support`
     - Open a terminal (VS Code -> Terminal menu -> New terminal)
-      - Secara pribadi saya biasanya membuka terminal di luar VS Code, tetapi biasanya ini lebih merupakan preferensi daripada keharusan. Beberapa lingkungan Windows bisa jadi aneh dan mengharuskan ini, oleh karena itu saya sebutkan di sini
-  - ketik `pwd` ini akan mencantumkan di mana Anda saat ini berada di sistem file
+      - Secara pribadi saya biasanya membuka terminal di luar VSCode, tetapi biasanya ini lebih merupakan preferensi daripada keharusan. Beberapa lingkungan Windows bisa jadi aneh dan mengharuskan ini, oleh karena itu saya sebutkan di sini
+  - ketik `pwd` ini akan mencantumkan dimana Anda saat ini berada di sistem file
   - ketik `node -v` untuk memverifikasi bahwa ia memiliki akses ke node (seharusnya demikian jika Anda menginstalnya sebelumnya dari minggu ke-1)
   - ketik `ls -las` ini akan mencantumkan semua yang ada di folder ( dirini adalah tampilan sederhana dari info ini)
   - type `npm install` selama Anda melihat package.jsondi langkah sebelumnya - **Ini adalah cara Anda berinteraksi dengan SEMUA REPO KODE JAVASCRIPT MODERN**
@@ -63,11 +61,10 @@ Jika Anda memerlukan bantuan tambahan setelah menontonnya, berikut beberapa lang
 - Datanglah ke kantor TA pada jam kerja, banyak sekali jam kerjanya, itulah tugas mereka!
 - DM saya atau TA dengan pertanyaan spesifik yang Anda miliki tentang cara melakukan hal-hal tertentu dan kami dengan senang hati membantu
 
-
 # Kamis (kita lihat saja bagaimana Selasa berjalan dan menyesuaikannya dari sana)
-Sekarang setelah kita memiliki beberapa alur kerja dan proses, mari kita mulai melihat komponen web dan membangunnya dari nol. Ringkasan: Apa itu komponen web? [https://docs.google.com/presentation/d/1cvM-4v745oQWcpX4M0ytFLQd_eIyaOJgUEgs4V6UFk0/edit?usp=sharing](https://docs.google.com/presentation/d/18XW95fe_-mvOibTUvcCXh8OlH6xELCewAKlt4SJNc7g/edit?usp=sharing)
+Sekarang setelah kita memiliki beberapa alur kerja dan proses, mari kita mulai melihat komponen web dan membangunnya dari nol. Ringkasan: Apa itu komponen web? [Slide Komponen Web](https://docs.google.com/presentation/d/18XW95fe_-mvOibTUvcCXh8OlH6xELCewAKlt4SJNc7g/edit?usp=sharing)
 ## Kode dengan angka
-- Ambil template kartu ini: [https://github.com/btopro/polaris-chipbuat](https://github.com/btopro/polaris-chip) templat untuk Anda sendiri
+- Ambil template kartu ini: [Polaris Chip](https://github.com/btopro/polaris-chip) templat untuk Anda sendiri
 - dapatkan kode ini dikloning ke komputer Anda
 - ikuti di kelas
 
