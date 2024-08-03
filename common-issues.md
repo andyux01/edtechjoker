@@ -1,43 +1,43 @@
-# Common issues
+# Masalah umum
 
-This is a list of common problems and common remedies. Before raising your hand or saying your stuck, ensure you've consulted this list as it's most likely what I am going to ask you to run through.
+Ini adalah daftar masalah umum dan solusi umum. Sebelum mengangkat tangan atau mengatakan Anda buntu, pastikan Anda telah membaca daftar ini karena kemungkinan besar saya akan meminta Anda untuk membahasnya.
 
-## I did X and it didn't work
+## Saya melakukan X dan itu tidak berhasil
 
 ### Terminal / command line
-- look up before the command you typed, google the error. it's usually red, or some kind of "whatever is undefined"
-- terminal commands don't start with a `$` and you may have copy and pasted incorrectly
-- ensure you are in the correct directory when you run the command
+- cari sebelum perintah yang Anda ketik, google kesalahannya. biasanya berwarna merah, atau semacam "apa pun yang tidak terdefinisi"
+- perintah terminal tidak dimulai dengan a $dan Anda mungkin telah menyalin dan menempel dengan salah
+- pastikan Anda berada di direktori yang benar saat menjalankan perintah
 
-#### It says "whatever" is not a command
-every repo ever that has a `package.json` in it needs to be installed. The feedback loop is ALWAYS:
-1. git clone / download the thing
-2. go to the project in a terminal window and run `npm install` to install the dependencies
-3. reading `package.json` you can see the commands available under `scripts` though `npm start` is pretty common followed by `npm run dev`
-4. YOU MUST BE IN THE SAME DIRECTORY AS THAT package.json FILE IN ORDER TO EXECUTE COMMANDS
+#### Ini mengatakan "apapun" bukanlah sebuah perintah
+setiap repo yang memilikinya `package.json` perlu diinstal. Umpan baliknya SELALU:
+1. git clone / unduh benda itu
+2. buka proyek di jendela terminal dan jalankan npm install untuk menginstal dependensi
+3. membaca package.json Anda dapat melihat perintah yang tersedia di bawah scripts meskipun `npm start` cukup umum diikuti oleh `npm run dev`
+4. ANDA HARUS BERADA DI DIREKTORI YANG SAMA DENGAN FILE `package.json` ITU UNTUK MENJALANKAN PERINTAH
 
 #### Common commands
-- `cd` change directory `cd whatever` moves into the `whatever` directory
-- `cd ../..` moves back 2 folders, `cd ..` back one
+- `cd` ubah direktori `cd whatever` pindah ke directori `whatever` 
+- `cd ../..` pindah kembali 2 folder `cd ..` back one
 - `ls -las` lists things in a well printed way in the current directory
-- `pwd` shows you the path to the current working directory
-- `git pull origin master` (or git pull origin main) will get updated commits and code from the git repo
+- `pwd` menunjukkan jalur ke direktori kerja saat ini
+- `git pull origin master` (atau git pull origin main) akan mendapatkan komit dan kode yang diperbarui dari repo git
 
-### Browser / your running code
+### Browser / kode Anda yang sedang berjalan
 
-It's blank / failed / didn't do what you expected
-- Look at terminal, are there errors / warnings?
-- Look in VS Code, is anything in red on the right edge? If so, scroll to see that code in view and hover for hints about what's wrong syntax or dependency wise
-- Go to the browser, right click and hit Inspect. In the tab that opens, look at the `Console` to see if there are error messages
+Kosong / gagal / tidak melakukan apa yang Anda harapkan
+- Lihat terminal, apakah ada kesalahan/peringatan?
+- Lihat di VS Code, apakah ada yang berwarna merah di tepi kanan? Jika ada, gulir untuk melihat kode tersebut dan arahkan kursor untuk petunjuk tentang sintaksis atau dependensi yang salah.
+- Buka browser, klik kanan dan tekan _Inspect_. Di tab yang terbuka, lihat untuk _Console_ melihat apakah ada pesan kesalahan
 
-### HTML common mistakes
-- attributes MUST be like so `<p class="whatever">`. some systems (like codepen) will allow `<p CLASS = "STUFF">` or `<P class=stuff>` but these are not correct and can cause issues.
-- It's always `<` tag name in lower case, space, attribute name, =", then the value and then ". Tag must always end with `>` and to bee complete will have a matching `</tagname>` or `</p>`
-- VSCode will at times identify an open tag without a closing
-
-### CSS common mistakes
-- `#thing` would target `<p id="thing">`
-- `.thing` would target `<p class="thing">`
+### Kesalahan umum HTML
+- atribut HARUS seperti ini  `<p class="whatever">`. beberapa sistem (seperti codepen) akan mengizinkan  `<p CLASS = "STUFF">` or `<P class=stuff>` tetapi ini tidak benar dan dapat menyebabkan masalah.
+- Nama tag selalu `<`  dalam huruf kecil, spasi, nama atribut, =", lalu nilai dan kemudian ". Tag harus selalu diakhiri dengan `>` dan untuk menjadi lengkap akan memiliki pencocokan `</tagname>`atau `</p>`.
+- VSCode terkadang akan mengidentifikasi tag terbuka tanpa tag penutup
+- 
+### Kesalahan umum CSS
+- `#thing` akan menargetkan `<p id="thing">`
+- `.thing` akan menargetkan `<p class="thing">`
 - `.thing .nesting .here` is `<p class="thing"><div class="nesting"><a class="here">`
 - `.thing.nesting.here` without spaces, implies `<p class="thing nesting here">` because you can stack classes / selectors together
 - ALL css attributes MUST have `;` at the end of them. JS is forgiving at times but CSS is not. for example `p.orange { color: orange }` will break
@@ -50,17 +50,16 @@ It's blank / failed / didn't do what you expected
 - CSS scoping when we get into web components, is that CSS does not cascade when you see "shadow-root" in the browser inspector. This is a feature, not a bug, but frustrating at first for sure!
 
 ### JS Common mistakes
-- We will be doing modular javascript which means that local "tooling" or development tools, actually build and make the code work while you review it.
-- As a result when you reference other code it should be like `import "@whatever/library/thing.js";` and NOT `import "../../../../node_modules/@whatever/library/thing.js"`
-JS feedback loop when using NPM
-- find asset on npm
+- Kita akan menggunakan javascript modular, yang berarti "perkakas" atau perkakas pengembangan lokal, benar-benar membangun dan membuat kode berfungsi saat Anda memeriksanya.
+- Akibatnya ketika Anda mereferensikan kode lain, kode tersebut seharusnya seperti `import "@whatever/library/thing.js";` and NOT `import "../../../../node_modules/@whatever/library/thing.js"` loop umpan balik JS saat menggunakan NPM
+- temukan aset di npm
 - `npm install --save @what/ever`
 - `npm run start` (restart / reload your development environment)
 - import the code into your code like `import "@what/ever/thing.js"`
 - now, if it's another webcomponent then you'll be able to use the `<what-ever>` tag
 
-# Get in the habit of doing these all the time.
-This is literally the feedback loop of the job and the way to solve 99% of issues. If you hate this, you might end up hating development. If this makes sense, hopefully you have just found your passion.
+# Biasakan melakukan hal ini setiap waktu.
+Ini secara harfiah merupakan siklus umpan balik dari pekerjaan dan cara untuk menyelesaikan 99% masalah. Jika Anda membenci ini, Anda mungkin akan membenci pengembangan. Jika ini masuk akal, mudah-mudahan Anda baru saja menemukan gairah Anda.
 
 # Video of how to get started / OS level explainer
 - https://www.youtube.com/watch?v=cwTswuFkMH4
