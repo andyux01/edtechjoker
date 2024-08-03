@@ -1,22 +1,23 @@
-# Week 1 - The one with getting started
-## Tues - The one where we go through the contract
-- Welcome and syllabus day
-- Context setting what we'll be working on, learning about and the industry at large as well as establishing what brought me from the classrooms you've taken to the stage where I am today and online
+# Minggu 1 - Yang satu dengan memulai
+## Selasa - Saat kita membahas kontraknya
+- Hari penyambutan dan silabus
+- Pengaturan konteks tentang apa yang akan kita kerjakan, pelajari tentang industri secara luas serta menetapkan apa yang membawa saya dari kelas yang Anda bawa ke tahap di mana saya berada saat ini dan daring
 
-## Wed - between class if possible
-- https://oer.hax.psu.edu/bto108/sites/ist256/requirements - get accounts on these services
-- Install the software mentioned and bring any issues you have to class
-- *If you have issues with vercel, please contact their support as soon as possible. They take awhile to respond sometimes and it will enhance your ability to see 'built' work out at live web addresses when having it.*
+## Rabu - di sela-sela kelas jika memungkinkan
+- https://oer.hax.psu.edu/bto108/sites/ist256/requirements - dapatkan akun pada layanan ini
+- Instal perangkat lunak yang disebutkan dan bawa masalah apa pun yang Anda miliki ke kelas
+- *Jika Anda mengalami masalah dengan vercel, harap hubungi dukungan mereka sesegera mungkin. Terkadang mereka butuh waktu lama untuk merespons dan ini akan meningkatkan kemampuan Anda untuk melihat hasil kerja yang 'dibuat' di alamat web saat menggunakannya.*
 
-## Thurs: Get basic structure around the big 3, fundamentals and playing with stuff
-- We'll "hack" the penn state website and learn that the browser is the debugging environment
-- Play with a very watered down "web application" called the "Stupid Simpsons App"
-- Check out a code pen, a really easy way of learning HTML/CSS/JS by remixing examples of others
+## Kamis: Dapatkan struktur dasar seputar 3 hal besar, fundamental, dan bermain dengan berbagai hal
+- Kami akan "meretas" situs web Penn State dan mengetahui bahwa browser adalah lingkungan debugging
+- Bermain dengan "aplikasi web" yang sangat encer yang disebut "Aplikasi Simpsons Bodoh"
+- Lihatlah **codepen**, cara yang sangat mudah untuk mempelajari HTML/CSS/JS dengan mencampur contoh-contoh orang lain
 - https://oer.hax.psu.edu/bto108/sites/ist256/activities/day-1
 
-## Homework
-- Create an account on https://github.com 
-- Create accounts on the services listed here: https://oer.hax.psu.edu/bto108/sites/ist256/requirements
+## Pekerjaan rumah
+
+- Buat akun di https://github.com 
+- Buat akun pada layanan yang tercantum di sini: https://oer.hax.psu.edu/bto108/sites/ist256/requirements
 - Create a **PUBLIC** Gist on https://gist.github.com/ called **week-1.md** (so that you can write markdown and practice doing so)
 - Watch this video on terminal basics: https://www.youtube.com/watch?v=cwTswuFkMH4 
 - Read this [common issues document](common-issues.md) (and keep it in mind going forward as it'll save us time and time is valuable!):
