@@ -29,7 +29,7 @@ buat pembungkus div di sekitar seluruh desain Anda, lalu yang lain sehingga Anda
 - class="benda" BUKAN class = "benda"
 - Hilangkan penggunaan id=”apapun” kecuali untuk kartu atau tombol
 - Penggunaan padding dan margin yang berbasis 8 atau berbasis 16
-- Hapus <br> <center> <b> <body> <head>dan tag lain yang dibahas yang tidak memiliki tujuan paralel lainnya
+- Hapus `<br> <center> <b> <body> <head>` dan tag lain yang dibahas yang tidak memiliki tujuan paralel lainnya
 - Ganti semua gaya sebaris dengan kelas / pemilih CSS
 - Ganti semua pemilih CSS khusus tag dengan kelas
 - Buat “kartu” lain sehingga 2 hidup di layar berdampingan, lalu yang lain sehingga 3 hidup di layar.
